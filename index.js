@@ -1,3 +1,9 @@
+/**
+ * @name HarleyDavidson
+ * @author <https://anuraghazra.github.io>
+ * @email <hazru.anurag@gmail.com> 
+ */
+
 function id(id) {
   return document.getElementById(id);
 }
