@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Harley Davidson</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/ScrollToPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/BezierPlugin.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="./index.js"></script>
+
+</head>
+
+<body>
+  <div class="overlay">
+    <div class="loader"></div>
+  </div>
+
+  <nav class="nav">
+    <a href="javascript:window.location.reload();">
+      <img class="nav__logo" src="images/logo.png">
+    </a>
+
+    <div class="nav__search">
+      <input id="search" type="text" placeholder="Search">
+      <i class="fas fa-search"></i>
+    </div>
+
+    <ul class="nav__list">
+      <li><a href="https://anuraghazra.github.io" target="_blank">Home</a></li>
+      <li><a href="https://github.com/anuraghazra" target="_blank">Drive</a></li>
+      <li><a href="#">Customize</a></li>
+      <li><a href="#">Order</a></li>
+    </ul>
+  </nav>
+  <!-- <section class="bg-left-black"></section> -->
+  <svg class="bg-left-black" version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg">
+    <path id="svg-path" transform="scale(1.1) translate(-200 0)"
+      d="m -0,-117.88 8.1e-4,766.7 884.7,1.2 C 889.5,485.0 839.0,294.9 745.5,128.4 690.9,31.5 624.276,-53.0 551.5,-117.48 Z"
+      style="fill:#242424;" />
+  </svg>
+  <div class="bg bg--center"></div>
+  <div class="bg bg--right"></div>
+  <div class="bg bg--left"></div>
+
+
+  <main class="content-wrapper wrapper-1">
+
+    <img src="images/bike_big.png" class="bike">
+
+    <div class="info">
+      <h1>V-Rod Key Specs</h1>
+      <ul>
+        <li>1247 CC</li>
+        <li>115 BHP</li>
+        <li>18 KMPL</li>
+        <li>320 KG</li>
+      </ul>
+    </div>
+
+
+    <h1 class="main__text">
+      <span>Harley</span>
+      <span><br>&nbsp;&nbsp;&nbsp;Davidson</span>
+      <span><br>V-Rod</span>
+    </h1>
+
+    <h1 id="txt" class="subtle-text pinDiv"><span>P</span><span>O</span><span>W</span><span>E</span><span>R</span></h1>
+    <h1 class="hell-text">One Hell Of A Ride</h1>
+
+
+    <div class="torque-text">
+      <div class="vline-1"></div>
+      <div class="vertical-text">TORQUE</div>
+      <div class="vline-2"></div>
+    </div>
+
+    <div class="dots">
+      <div></div>
+      <div class="active-dot"></div>
+      <div></div>
+      <div></div>
+    </div>
+
+  </main>
+
+
+  <main class="content-wrapper wrapper-2">
+    <img src="images/harley-davidson-fat-bob.png" class="bike fat-bob">
+
+    <div class="info-text fatbob-text">
+      <h1 class="skew_text">
+        <span>Fat</span>
+        <span><br>&nbsp;Bob</span>
+      </h1>
+      <ul>
+        <li>1745 cc</li>
+        <li>180 Kmph</li>
+        <li>65.9 PS</li>
+        <li>Dual Channel</li>
+      </ul>
+    </div>
+
+  </main>
+
+  <main class="content-wrapper wrapper-3">
+    <img src="images/scout-brilliant-blue.png" class="bike scout">
+
+    <div class="info-text scout-text">
+      <h1 class="skew_text">
+        <span>Scout</span>
+        <span><br>&nbsp;Sixty</span>
+      </h1>
+      <ul>
+        <li>1745 cc</li>
+        <li>200 Kmph</li>
+        <li>65.9 PS</li>
+        <li>5500 rpm</li>
+        <li>Dual Channel</li>
+      </ul>
+    </div>
+  </main>
+
+  <main class="content-wrapper wrapper-4">
+    <img src="images/street-bob.png" class="bike streetbob">
+
+    <div class="info-text streetbob-text">
+      <h1 class="skew_text">
+        <span>Street</span>
+        <span><br>&nbsp;Bob</span>
+      </h1>
+      <ul>
+        <li>1745 cc</li>
+        <li>180 Kmph</li>
+        <li>65.9 PS</li>
+        <li>Dual Channel</li>
+      </ul>
+    </div>
+  </main>
+
+  <!-- <main class="content-wrapper wrapper-5 about">
+    <h1>Power Which Empowers Clients</h1>
+  </main> -->
+
+
+  <section class="footer">
+    <div class="footer__social">
+      <a href="https://github.com/anuraghazra"><i class="fab fa-github"></i></a>
+      <a href="https://facebook.com/anuragh4zra"><i class="fab fa-facebook"></i></a>
+      <a href="https://instagram.com/anuraghazru/"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com/anuraghazru"><i class="fab fa-twitter"></i></a>
+    </div>
+    <i class="fas fa-shopping-cart"></i>
+  </section>
+</body>
+
+</html>
